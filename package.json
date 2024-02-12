@@ -1,6 +1,7 @@
 
 {
   "name": "starter",
+  "homepage": "https://github.com/AniDev0/Portfolio.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
