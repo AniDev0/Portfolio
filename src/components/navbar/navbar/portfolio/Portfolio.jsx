@@ -19,12 +19,12 @@ const items= [
     id:3,
     title: "Arcade App (UI&UX)",
     img: "./arcadeapp1.png",
-    desc: "Immerse yourself in a world of endless beats with [App Name], the all-in-one music app for playing and owning your favorite tunes."
+    desc: "Immerse yourself in a world of endless beats with Ani's Arcade, the all-in-one music app for playing and owning your favorite tunes."
     },
     {
     id:4,
     title: "React Restaurant Website",
-    img: "./MusicApp1.png",
+    img: "./homepageRestaurant.jpeg",
     desc: "Immerse yourself in a world of endless beats with [App Name], the all-in-one music app for playing and owning your favorite tunes."
     },
 ]
