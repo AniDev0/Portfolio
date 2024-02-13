@@ -7,13 +7,13 @@ const items= [
     id:1,
     title: "Music App (UI&UX)",
     img: "./MusicApp1.png",
-    desc: "Immerse yourself in a world of endless beats with [App Name], the all-in-one music app for playing and owning your favorite tunes."
+    desc: "Immerse yourself in a world of endless beats with MusicAni, the all-in-one music app for playing and owning your favorite tunes."
     },
     {
     id:2,
     title: "React Cryptocurrency App",
     img: "./Cryptoapp1.png",
-    desc: "Immerse yourself in a world of endless beats with [App Name], the all-in-one music app for playing and owning your favorite tunes."
+    desc: "Immerse yourself in a world of endless beats with CryptoEra, the all-in-one music app for playing and owning your favorite tunes."
     },
     {
     id:3,
