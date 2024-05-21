@@ -52,20 +52,17 @@ const Services = () => {
         </motion.div>
         <motion.div className="listContainer" variants={variants}>
             <motion.div className="box" whileHover={{background: "white", color: "black"}}>
-                <h2>Branding</h2>
+                <h2>UI design</h2>
                 <p><b>
-                    Lorem ipsum dolor sit amet. Aut illum Quis id voluptas error 
-                    est iusto veniam in animi itaque id repellendus numquam et 
-                    dignissimos alias et nostrum possimus!</b>
+                I translate user needs into beautiful, user-friendly interfaces. Think buttons, icons, layouts – basically everything you see and interact with on an app or website. I make it pretty and easy to use. </b>
                 </p>
                 <button>Go</button>
             </motion.div>
             <motion.div className="box" whileHover={{background: "white", color: "black"}}>
-                <h2>Branding</h2>
+                <h2>Web Design</h2>
                 <p><b>
-                    Lorem ipsum dolor sit amet. Aut illum Quis id voluptas error 
-                    est iusto veniam in animi itaque id repellendus numquam et 
-                    dignissimos alias et nostrum possimus!</b>
+                I breathe life into website mockups with ReactJS and JavaScript. 
+                I don't just design the look, I code it to work too.  Think clean interfaces, smooth animations, and lightning-fast loading times – that's my happy place.</b>
                 </p>
                 <button>Go</button>
             </motion.div>
@@ -73,9 +70,7 @@ const Services = () => {
             <motion.div className="box" whileHover={{background: "white", color: "black"}}>
                 <h2>Branding</h2>
                 <p><b>
-                    Lorem ipsum dolor sit amet. Aut illum Quis id voluptas error 
-                    est iusto veniam in animi itaque id repellendus numquam et 
-                    dignissimos alias et nostrum possimus!</b>
+                I craft brand experiences. I take a brand's voice and translate it into visual elements that users see and feel. It's about building a cohesive look that resonates, making sure every button, screen, and interaction reflects the brand's personality</b>
                 </p>
                 <button>Go</button>
             </motion.div>

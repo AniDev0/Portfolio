@@ -1,5 +1,6 @@
 import {motion} from "framer-motion";
 import "./hero.scss";
+import {Link} from "react-router-dom";
 
 const textVariants = {
     initial:{
@@ -58,8 +59,10 @@ const Hero = () => {
                     UI/UX designer and Web Developer
                 </motion.h1>
                 <motion.div variants={textVariants}  className="buttons">
-                    <a href="/contact"><motion.button variants={textVariants} >See the Latest Works</motion.button></a>
-                    <motion.button variants={textVariants} >Contact Me</motion.button>
+                    <motion.button variants={textVariants} >See the Latest Works</motion.button>
+    
+                    
+                    <motion.button variants={textVariants}>Contact Me</motion.button>
                 </motion.div>
                 <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" />
             </motion.div>

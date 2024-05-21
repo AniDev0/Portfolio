@@ -5,27 +5,31 @@ import { useRef } from "react";
 const items= [
     {
     id:1,
-    title: "Music App (UI&UX)",
-    img: "./MusicApp1.png",
-    desc: "Immerse yourself in a world of endless beats with MusicAni, the all-in-one music app for playing and owning your favorite tunes."
+    title: "Interior Design Responsive Site (UI&UX)",
+    img: "./interior.png",
+    desc: "An responsive UI for an interior design website. It flawlessly adapts to any device, showcasing beautiful spaces and making navigation a breeze – perfect for inspiring clients on the go!",
+    link: "https://docs.google.com/presentation/d/1K-fsBxDXX3BbrfU0SEl4OcZNb191QbUM/edit?usp=sharing&ouid=106480674068126585880&rtpof=true&sd=true"
     },
     {
     id:2,
     title: "React Cryptocurrency App",
     img: "./Cryptoapp1.png",
-    desc: "Immerse yourself in a world of endless beats with CryptoEra, the all-in-one music app for playing and owning your favorite tunes."
+    desc: "It's all about empowering you to make informed decisions in the ever-changing world of crypto.  This app is built with ReactJS, so you know it's fast and responsive.",
+    link: "https://docs.google.com/presentation/d/15sjQIOqiJ2P0HqqGKLSNXcyiMmqJAU5TVRraA7_6dXw/edit?usp=sharing"
     },
     {
     id:3,
     title: "Arcade App (UI&UX)",
     img: "./arcadeapp1.png",
-    desc: "Immerse yourself in a world of endless beats with Ani's Arcade, the all-in-one music app for playing and owning your favorite tunes."
+    desc: "Ani’s Arcade is an app where users can view the games that are available at the local arcade. It offers the liberty for the users to view all the related information.",
+    link: "https://docs.google.com/presentation/d/1vdP0J3O29VadwxH0ixQi0W2vmHRoldrb/edit?usp=sharing&ouid=106480674068126585880&rtpof=true&sd=true"
     },
     {
     id:4,
     title: "React Restaurant Website",
     img: "./homepageRestaurant.jpeg",
-    desc: "Immerse yourself in a world of endless beats with [App Name], the all-in-one music app for playing and owning your favorite tunes."
+    desc: "It's easy to navigate, so hungry customers can find the menu, hours.  Maybe there's even a section with mouthwatering photos that'll have them booking a table right away.",
+    link: "https://github.com/ThatOneMessedUpKid/CapstoneProjectMeta.git"
     },
 ]
 
@@ -48,7 +52,7 @@ const Single = ({item}) => {
                     <motion.div className="textContainer" style={{y}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>See an insight</button>
+                        <button><a href={item.link}>See an insight</a></button>
                     </motion.div>
                 </div>
             </div>
